@@ -55,23 +55,23 @@
 
 import random
 
-messages = ['It is certain',
-            'It is decidedly so',
-            'Yes definitely',
-            'Reply hazy try again',
-            'Ask again later',
-            'Concentrate and ask again'
-            'My reply is no',
-            'Outlook not so good',
-            'Very doubtful'
-            ]
+# messages = ['It is certain',
+#             'It is decidedly so',
+#             'Yes definitely',
+#             'Reply hazy try again',
+#             'Ask again later',
+#             'Concentrate and ask again'
+#             'My reply is no',
+#             'Outlook not so good',
+#             'Very doubtful'
+#             ]
 # print(messages[random.randint(0, len(messages) - 1)])
 
 # sentence = '我喜欢睡觉。'
 # a = list(sentence)
 # b = tuple(sentence)
 # print(a,b)
-spam =[0,1, 2, 3, 4]
+# spam =[0,1, 2, 3, 4]
 # cheese = spam
 # cheese[1] = 'hello'
 # print(spam, cheese)
@@ -79,7 +79,7 @@ spam =[0,1, 2, 3, 4]
 # spam =[0,1, 2, 3, 4,[3,4]]
 # cheese = copy.deepcopy(spam)
 # cheese[1] = 42
-print(spam[:2])
+# print(spam[:2])
 
 # list = []
 # for i in range(0,len(sentence)):
@@ -95,8 +95,7 @@ print(spam[:2])
 #
 # for i in name:
 #     print('******{i}*******')
-
-
-
-
+for i in range(10):
+    b = random.randint(1,6)
+    print(b,f'{i}')
 
