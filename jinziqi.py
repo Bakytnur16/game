@@ -100,3 +100,5 @@ while ' ' in dic.values():
         break
 else:
     print("结束！")
+    
+# 别忘写try
