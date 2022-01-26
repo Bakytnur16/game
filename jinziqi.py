@@ -19,18 +19,6 @@ print("\n你想先走还是后走？ 先走是'X'，后走是'O'")
 
 howGo = input('我想：')
 
-if howGo in wordBefore:
-    turn = 'X'
-    r_turn = 'O'
-
-elif howGo in wordAfter:
-    turn = 'O'
-    r_turn = 'X'
-
-else:
-    print("好的，再见！")
-    exit(0)
-
 #棋盘函数
 def printBoard(dic):
     print(f"  {dic['1']}  |  {dic['2']}  |  {dic['3']}")
@@ -39,10 +27,15 @@ def printBoard(dic):
     print('-----+-----+-----')
     print(f"  {dic['7']}  |  {dic['8']}  |  {dic['9']}")
 
+#判断输赢
+ # def isWin():
+ #     pass
+
 # 电脑走位
 def robotMove():
         for i in dic:
             i = str(random.randint(1, 9))
+            # i = b
             if dic[i] == ' ':
                 dic[i] = r_turn
                 print("\n-------电脑-------\n")
@@ -58,10 +51,12 @@ def robotMove():
         else:#循环九次后，没找到空位就再次进入循环，知道找到空位并填补
             robotMove()
 
-#想法：在不改动循环的情况下，设置两个方法：先走：人先输机器再随机（没报错，后走：dic［a］报错
-# 设置先后，轮流填空
-# 解决了循环多余的问题
-while ' ' in dic.values():
+#先判断后输入
+# 人走位
+def manMove():
+    if ' ' not in dic.values():
+        return
+
     a = input('输入数字： ')
     if dic[a] == ' ':
         dic[a] = turn
@@ -69,16 +64,31 @@ while ' ' in dic.values():
         printBoard(dic)
         # print(dic)
     elif dic[a] != ' ':
-        if ' ' not in dic.values():
-            break
-        else:
-            print("     数字重复了，从新选一个吧。")
-            continue
-    robotMove()
+        print("     数字重复了，从新选一个吧。")
+        manMove()
+
+
+# 解决了循环多余的问题
+while ' ' in dic.values():
+    if howGo in wordBefore:
+        turn = 'X'
+        r_turn = 'O'
+        manMove()
+        robotMove()
+
+    elif howGo in wordAfter:
+        turn = 'O'
+        r_turn = 'X'
+        robotMove()
+        manMove()
+
+    else:
+        print("好的，再见！")
+        exit(0)
 else:
     print("结束！")
 
- #设置输赢
+
 # try:
 #     dic[a]
 # except KeyError:
