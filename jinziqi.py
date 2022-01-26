@@ -43,7 +43,6 @@ def printBoard(dic):
 def robotMove():
         for i in dic:
             i = str(random.randint(1, 9))
-            # i = b
             if dic[i] == ' ':
                 dic[i] = r_turn
                 print("\n-------电脑-------\n")
