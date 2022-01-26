@@ -48,7 +48,7 @@ def robotMove():
                 else:
                     # print('重复了',i)
                     continue
-        else:#循环九次后，没找到空位就再次进入循环，知道找到空位并填补
+        else:#循环九次后，没找到空位就再次进入循环，直到找到空位并填补
             robotMove()
 
 #先判断后输入
