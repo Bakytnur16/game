@@ -61,7 +61,7 @@ def robotMove():
                 else:
                     # print('重复了',i)
                     continue
-        else:#循环九次后，没找到空位就再次进入循环，知道找到空位并填补
+        else:#循环九次后，没找到空位就再次进入循环，直到找到空位并填补
             robotMove()
         Iswin()
 
@@ -72,7 +72,7 @@ def manMove():
         return
 
     a = input('输入数字： ')
-    if dic[a] == ' ':
+    elif dic[a] == ' ':
         dic[a] = turn
         print("\n--------您-------\n")
         printBoard(dic)
