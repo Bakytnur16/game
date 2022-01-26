@@ -28,8 +28,21 @@ def printBoard(dic):
     print(f"  {dic['7']}  |  {dic['8']}  |  {dic['9']}")
 
 #判断输赢
- # def isWin():
- #     pass
+list = [['1', '2', '3'], ['1', '4', '7'], ['1', '5', '9'], ['2', '5', '8'], ['3', '6', '9'], ['3', '5', '7'],
+        ['4', '5', '6'], ['7', '8', '9']] #赢法
+def Iswin():
+    for i in list:
+        # print(dic[i[0]], dic[i[1]], dic[i[2]])
+        if dic[i[0]] == dic[i[1]] == dic[i[2]]:
+            if dic[i[0]] == turn:
+                print(f"\n----恭喜您赢了-----")
+                exit(0)
+            elif dic[i[0]] == r_turn:
+                print(f"\n----电脑赢了-------")
+                exit(0)
+            else:
+                return
+    return False
 
 # 电脑走位
 def robotMove():
@@ -48,8 +61,9 @@ def robotMove():
                 else:
                     # print('重复了',i)
                     continue
-        else:#循环九次后，没找到空位就再次进入循环，直到找到空位并填补
+        else:#循环九次后，没找到空位就再次进入循环，知道找到空位并填补
             robotMove()
+        Iswin()
 
 #先判断后输入
 # 人走位
@@ -66,7 +80,7 @@ def manMove():
     elif dic[a] != ' ':
         print("     数字重复了，从新选一个吧。")
         manMove()
-
+    Iswin()
 
 # 解决了循环多余的问题
 while ' ' in dic.values():
@@ -81,15 +95,8 @@ while ' ' in dic.values():
         r_turn = 'X'
         robotMove()
         manMove()
-
     else:
         print("好的，再见！")
-        exit(0)
+        break
 else:
     print("结束！")
-
-
-# try:
-#     dic[a]
-# except KeyError:
-#     print("只能输入1到9")
