@@ -9,7 +9,7 @@ print("""
 """)
 print('-' * 10)
 print("是 / 否 打开纸条")
-choice = input("你的选择是： ")
+choice = input("Your choice is： ")
 
 strList = ['是', 'shi', '是的', '好','hao','行', '太好了']
 
@@ -47,7 +47,7 @@ if choice in strList:
                 # 再检查一遍循环逻辑，exit暂时放着；再丰富些内容结局
         else:
             print('嘻嘻，都说了只能猜1到20之间的数字')
-        print(f"你还剩{9 - guessTime}次机会了呦")
+        print(f"Now you have {9 - guessTime} chances")
 
     print("""
     ”猜了十次都没猜出来嘻嘻“, ...
