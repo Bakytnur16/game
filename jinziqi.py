@@ -13,9 +13,9 @@ print('  4  |  5  |  6  ')
 print('-----+-----+-----')
 print('  7  |  8  |  9  ')
 
-
-wordBefore = ['先走','我先走','我先走吧','我先','先','xian','xianzou','woxianzou','X','x']  #关键词检索：先 走 我 吧（ ？ 按照输入转成对应字符串再对比 想想）
-wordAfter = ['后走','我后走','houzou','hou','wohouzou','后走吧','后','o','O']
+#Keyword search:  ? Convert it to the corresponding string according to the input and then compare and think
+wordBefore = ['go first','First','I\'ll go first','GO FIRST','FIRST','GO','X','x']
+wordAfter = ['Go after','I\'ll go after','Let\'s go after','hou','wohouzou','After','AFTER','o','O']
 
 print("\nDo you want to go first or later? Go first is 'X', go later is 'O'")
 
