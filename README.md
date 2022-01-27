@@ -1,16 +1,16 @@
 # game
-#### 猜数字小游戏
-> 随机生成1到20之间的一个整数，10次机会内猜对获胜。 ~~恐怖游戏~~
+#### Number guessing game
+> Randomly generate an integer between 1 and 20. Guess correctly within 10 chances to win.~~Horror game~~
 
-#### 井字游戏
-> 人机下棋 九次内分胜负 【电脑随机走位】  
-> 可选先走还是后走： 先走者 'X',后走者 'O', 横着，竖着，斜着连成一条线就算赢  
-> 详细规则在游戏里  
+#### Tic Tac Toe
+> Man-machine chess, nine internal points to win or lose [computer random walk]  
+> You can choose to go first or go later: the first walker 'X', the last walker 'O', horizontal, vertical, diagonal to form a line to win
+> Detailed rules are in the game  
 
-*难点：* 如何让电脑想赢  ？不随机？ AI  
+*Difficulty:* How to make the computer want to win? Not random? AI
 
-#### 彩独(java）
-> 在一群颜色里挑选与其他不同的色彩
-> 计时器
-> 难度逐渐变难
+#### Blendoku(java）
+> Choose from a group of colors that are different from others
+> Timer
+> Difficulty gradually becomes harder
 
