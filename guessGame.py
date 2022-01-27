@@ -22,15 +22,15 @@ if choice in strList:
     print('-' * 10)
     numGive = random.randint(1, 20)
     for guessTime in range(10):
-        print('你认为这个数字是: ', end='')
+        print('You think this number is: ', end='')
         guess = int(input())
 
         while 0 < guess < 21:
             if guess < numGive:
-                print(f'猜 错 啦~ 比{guess}大')
+                print(f'You are wrong~ It bigger than {guess}')
                 break
             elif guess > numGive:
-                print(f'猜 错 啦~ 比{guess}小')
+                print(f'You are wrong~ It smaller than{guess}')
                 break
             elif guess == numGive:
                 print("""
