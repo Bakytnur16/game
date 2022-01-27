@@ -11,6 +11,6 @@
 
 #### Blendoku(java）
 > Choose from a group of colors that are different from others
-> Timer
+> Timer（count）
 > Difficulty gradually becomes harder
 
