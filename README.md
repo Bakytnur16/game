@@ -9,7 +9,7 @@
 
 *Difficulty:* How to make the computer want to win? Not random? AI
 
-#### Blendoku(java）
+#### Blendoku
 > Choose from a group of colors that are different from others
 > Timer（count）
 > Difficulty gradually becomes harder
