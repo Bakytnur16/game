@@ -12,5 +12,5 @@
 #### Blendoku
 > Choose from a group of colors that are different from others
 > Timer（count） 
-> Difficulty gradually becomes harder
+> Difficulty gradually becomes harder。
 
