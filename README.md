@@ -1,4 +1,4 @@
-# game 
+# game  
 #### Number guessing game
 > Randomly generate an integer between 1 and 20. Guess correctly within 10 chances to win.~~Horror game~~
  
