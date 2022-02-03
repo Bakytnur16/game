@@ -11,7 +11,7 @@
 
 #### Blendoku
 > Choose from a group of colors that are different from others
-> Timer（count）；
+> Timer（count）
 > Difficulty gradually becomes harder
 > 彩独
 
