@@ -13,7 +13,8 @@
 > Choose from a group of colors that are different from others
 > Timer（count） 
 > Difficulty gradually becomes harder
-> 彩独
+> 彩独。
+
 
 #### 斗地主 
 
