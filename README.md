@@ -32,7 +32,7 @@ unity的bolt可视化工具 （playmaker）
 
 
 开发过程：
-Unity 3D(vs
+Unity 3D(vs）
 c#
 fl studio
 Aseprite
