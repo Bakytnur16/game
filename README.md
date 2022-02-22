@@ -19,3 +19,28 @@
 #### 斗地主 
 
 
+## 期末作业  
+像素风小游戏【环保小游戏】 
+功能： 种花 种树 种草 挖矿 捡垃圾 小地图 探索 
+2D 滚动 探索开发
+1. 认识动植物
+2. 环保的意识  
+
+unity的bolt可视化工具 （playmaker）
+
+
+开发过程：
+Unity 3D(vs
+c#
+fl studio
+Aseprite
+coding
+bomb 限流的储存服务 bmob
+打牌！！！！！
+
+独立游戏：
+itch.io
+爱给网 音效  
+unity官方素材  
+inkarnate 地图  
+https://game-icons.net/
