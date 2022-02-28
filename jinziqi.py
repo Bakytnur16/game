@@ -3,7 +3,7 @@ from sys import exit
 
 dic = {'1': ' ', '2': ' ', '3': ' ', '4': ' ', '5': ' ', '6': ' ', '7': ' ', '8': ' ', '9': ' '}
 
-print("""Let's play tic-tac-toe together :》 
+print("""Let's play tic-tac-toe together :》   
 Would you see the chessboard below? Each grid is arranged from 1 to 9
 Enter the corresponding number to place the chess pieces ~ \n""")
 
