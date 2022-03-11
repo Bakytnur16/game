@@ -4,7 +4,7 @@
  
 #### Tic Tac Toe 
 > Man-machine chess, nine internal points to win or lose [computer random walk]  
-> You can choose to go first or go later: the first walker 'X', the last walker 'O', horizontal, vertical, diagonal to form a line to win
+> You can choose to go first or go later: the first walker 'X', the last walker 'O', horizontal, vertical, diagonal to form a line to win  
 > Detailed rules are in the game  
 
 *Difficulty:* How to make the computer want to win? Not random? AI
